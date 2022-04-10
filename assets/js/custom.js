@@ -1,5 +1,12 @@
 jQuery(document).ready(function(){ 
 
+	// Mobile menu
+	$('.nav-icon').click(function () {
+		$('.mobile_menu').toggleClass('canvas-menu');
+		return false;
+	});
+	
+	
 	// Home owlCarousel
 	jQuery('.contac_box_slider').owlCarousel({
 		loop:true,
